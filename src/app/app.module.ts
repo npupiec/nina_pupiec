@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import {HttpClientModule} from '@angular/common/http';
-import {CharacterModule} from '../character/character.module';
+import {CharacterModule} from './character/character.module';
 
 @NgModule({
   declarations: [

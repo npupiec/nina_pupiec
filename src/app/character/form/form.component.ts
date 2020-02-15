@@ -3,9 +3,9 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {combineLatest, Subscription} from 'rxjs';
 import {ActivatedRoute, Router} from '@angular/router';
 import {filter, finalize} from 'rxjs/operators';
-import {Character} from '../../app/models/character';
-import {ListService} from '../../app/services/list.service';
-import {Species} from '../../app/models/species';
+import {Character} from '../../models/character';
+import {ListService} from '../../services/list.service';
+import {Species} from '../../models/species';
 
 @Component({
   selector: 'sl-form',

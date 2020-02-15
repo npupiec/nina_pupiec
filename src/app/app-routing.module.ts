@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ListViewComponent } from './list-view/list-view.component';
-import {CharacterNewComponent} from '../character/character-new/character-new.component';
-import {CharacterEditComponent} from '../character/character-edit/character-edit.component';
+import {CharacterNewComponent} from './character/character-new/character-new.component';
+import {CharacterEditComponent} from './character/character-edit/character-edit.component';
 
 const routes: Routes = [
   {

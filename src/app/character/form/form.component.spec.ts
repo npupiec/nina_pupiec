@@ -6,7 +6,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {RouterTestingModule} from '@angular/router/testing';
 import {By} from '@angular/platform-browser';
 import {DebugElement} from '@angular/core';
-import {ListService} from '../../app/services/list.service';
+import {ListService} from '../../services/list.service';
 
 describe('FormComponent', () => {
   let component: FormComponent;
